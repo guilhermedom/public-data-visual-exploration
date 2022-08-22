@@ -2,7 +2,7 @@ library(shiny)
 library(shinythemes)
 library(RColorBrewer)
 
-data = read.csv("gdp_committed_cost_data.csv", sep = ";")
+data = read.csv("../data/raw/gdp_committed_cost_data.csv", sep = ";")
 
 # Define UI for application.
 ui = fluidPage(
